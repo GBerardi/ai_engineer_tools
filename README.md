@@ -10,6 +10,6 @@ Content
 | sessions list | ```screen -ls``` |
 | new named section | ```screen -S session_name``` |
 | detach | ```ctrl + a, d``` |
-| attach | ```session -r session_name``` |
+| attach | ```screen -r session_name``` |
 | close attached session | ```exit``` |
 | close detached session | ```screen -XS session_name quit``` |
