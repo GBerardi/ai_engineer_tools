@@ -2,6 +2,7 @@
 
 Content
 - [screen basics](#screen-basics)
+- [docker basics](#docker-basics)
 
 ## screen basics
 
@@ -13,3 +14,9 @@ Content
 | attach | ```screen -r session_name``` |
 | close attached session | ```exit``` |
 | close detached session | ```screen -XS session_name quit``` |
+
+## docker basics
+| action | command |
+| ----- | ----- |
+| containers list | ```docker ps -a``` |
+| stop container | ```docker stop container_name``` |
