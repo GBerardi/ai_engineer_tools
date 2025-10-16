@@ -21,3 +21,4 @@ Content
 | containers list | ```docker ps -a``` |
 | stop container | ```docker stop container_name``` |
 | attach to a container | ```docker attach container_name``` |
+| detach from a container | ```ctrl (hold) + P than Q``` |
