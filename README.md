@@ -23,3 +23,4 @@ Content
 | attach to the main process of a container (exit will also exit the container) | ```docker attach container_name``` |
 | detach from a container without exiting it | ```ctrl (hold) + P than Q``` |
 | attach to a container creating a new shell | ```docker exec -it <container_name_or_id> /bin/bash (for a Bash shell)``` |
+| install tmux inside the container to have multiple shells that lasts after detaching | ```apt-get update && apt-get install -y tmux``` |
