@@ -24,3 +24,10 @@ Content
 | detach from a container without exiting it | ```ctrl (hold) + P than Q``` |
 | attach to a container creating a new shell | ```docker exec -it <container_name_or_id> /bin/bash (for a Bash shell)``` |
 | install tmux inside the container to have multiple shells that lasts after detaching | ```apt-get update && apt-get install -y tmux``` |
+
+## vim basics
+| action | command |
+| ----- | ----- |
+| copy text chuncks into vim | ``` :set paste ``` |
+| multi line comment | ``` ctrl + v, arrow up or down to select lines, shift+i, #, esc ``` |
+| multi line decomment | ``` ctrl + v, arrow up or down to select lines, x ``` |
