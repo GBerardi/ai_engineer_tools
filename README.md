@@ -1,8 +1,10 @@
 # AI engineer tools
 
 Content
+- [cpdex basics](#codex)
 - [screen basics](#screen-basics)
 - [docker basics](#docker-basics)
+- [vim basics](#vim-basics)
 
 ## Codex
 
