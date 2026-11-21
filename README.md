@@ -46,3 +46,8 @@ Reproducibility: clone the correct version of the repo automatically inside dock
 | copy text chuncks into vim | ``` :set paste ``` |
 | multi line comment | ``` ctrl + v, arrow up or down to select lines, shift+i, #, esc ``` |
 | multi line decomment | ``` ctrl + v, arrow up or down to select lines, x ``` |
+
+## trt
+Trt transform an ONNX to a trt engine converting the ONNX operations to the best performing tactics on the specific system/GPU.
+Tactics are different ways to implement a specific GPU operation described in the ONNX.
+trt exec is a standard tensorRT utility to evaluate a trt model.
