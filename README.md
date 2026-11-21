@@ -36,6 +36,7 @@ Content
 | install tmux inside the container to have multiple shells that lasts after detaching | ```apt-get update && apt-get install -y tmux``` |
 
 Development: point to your local repository
+
 Reproducibility: clone the correct version of the repo automatically inside docker
 
 ## vim basics
